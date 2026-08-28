@@ -1,0 +1,15 @@
+programa {
+  funcao inicio() {
+    inteiro notas[5]
+
+    notas[0] = 8
+    notas[1] = 7
+    notas[2] = 9
+    notas[3] = 6
+    notas[4] = 10
+  
+  para(inteiro i = 0; i < 5; i++) {
+    escreva("notas[", i,"] = ", notas[i],"\n")
+  }
+  }
+}
